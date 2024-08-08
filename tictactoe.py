@@ -106,12 +106,17 @@ def game():
     winner = False
 
     #prompt the user and handle input to begin the game
-    starter = input(f"\nWould you like to go first? (Y/N) \n")
-    starter = starter.upper()
-    if starter.startswith("Y"):
-        playerTurn = True
-    else:
-        playerTurn = False
+    while True:
+        starter = input(f"\nWould you like to go first? (Y/N) \n")
+        starter = starter.upper()
+        if starter.startswith("Y"):
+            playerTurn = True
+            break
+        elif starter.startswith("N"):
+            playerTurn = False
+            break
+        else:
+            print("Invalid input. Yes or No.")
     print_board(board)
 
     #loop to alternate user turns with the computer until there is a winner or spaces are filled
