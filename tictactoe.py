@@ -5,6 +5,7 @@
 # Coding Challenge -- Tic Tac Toe submission
 
 import random
+#pip install colorama
 from colorama import Fore, Style, init #from stack overflow
 init()  # Initialize colorama
 
