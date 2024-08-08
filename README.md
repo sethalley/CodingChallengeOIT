@@ -9,3 +9,6 @@ I then used StackOverflow to learn how to use the 'colorama' library to color th
 The remainder of my time was spent organizing the code, cleaning it, and adding comments for clarity. 
 
 I enjoyed this challenge! Thank you for considering me for the position!
+
+!!*** DEPENDENCIES ***!!
+pip install colorama
